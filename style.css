@@ -1,7 +1,7 @@
 body{font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;}
 .orange{color:orange;}
-section{display: flex; margin-bottom: 150px;}
+.flexible{display: flex; margin-bottom: 150px;}
 .half-width{width:50%;}
 .half-width img{width:80% ;
 }
@@ -10,5 +10,25 @@ background-image: linear-gradient(orange ,tomato
 );padding: 10px 40px;
 border-radius: 5px;
 font-weight: 400px;}
-.top banner{background-image: url(images/icons/facebook.png);}
-.dream big{background-image: url(images/icons/header_bg.png);}
+.top-banner{display: flex;
+    background-image: url(images/icons/header_bg.png);background-repeat: no-repeat;}
+.dream-big{
+    display: flex;
+    background-image: url(images/icons/mongo.png);
+background-repeat: no-repeat;}
+.experience-item{
+  box-shadow:10px 10px 40px yellowgreen;
+    width:40% ;
+    margin-left: 5%;
+margin-right: 5%;
+padding-left: 10px;
+border-radius: 10px
+;}
+h1{font-size: 40 px;}
+h2{font-size: 30px;}
+.experience{background-image: url(images/icons/react.png);
+background-repeat: no-repeat;background-position: left;}
+.top banner flexible {background-image: url(images/icons/insta.png);}
+#full{border-left: 7px solid blue;}
+#baby{border-left:7px solid red ;}
+footer{text-align: center;}
