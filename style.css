@@ -1,2 +1,13 @@
 body{font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;}
+.orange{color:orange;}
+section{display: flex;}
+.half-width{width:50%;}
+.half-width img{width:50% ;
+}
+.button{text-decoration: none;
+background-image: linear-gradient(orange ,tomato
+);padding: 10px 40px;
+border-radius: 5px;
+font-weight: 400px;}
+.top banner{background-image: url(images/icons/facebook.png);}
